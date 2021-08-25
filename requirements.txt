@@ -48,7 +48,7 @@ sklearn==0.0
 soupsieve==1.9.5
 tensorboard==1.14.0
 tensorflow-estimator==1.14.0
-tensorflow-gpu==1.14.0
+tensorflow-gpu==2.5.1
 termcolor==1.1.0
 tqdm==4.37.0
 urllib3==1.25.6
