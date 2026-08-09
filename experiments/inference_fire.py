@@ -83,6 +83,7 @@ for img_name in os.listdir(img_dir):
     input_images.append(img)
     input_images = np.array(input_images)
 
+    model.build(input_shape=(None, image_size[0], image_size[1], image_size[2]))
     y_pred = model.predict(input_images)
 
     #confidence_threshold = 0.5
